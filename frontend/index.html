@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PCP Têxtil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Produção</h1>
+    <form id="form-dados">
+        <input type="date" name="data" required>
+        <input type="text" name="unidade" placeholder="Unidade" required>
+        <input type="number" name="meta" placeholder="Meta" required>
+        <input type="number" name="realizado" placeholder="Realizado" required>
+        <button type="submit">Salvar</button>
+    </form>
+    <table id="tabela">
+        <thead><tr><th>Data</th><th>Unidade</th><th>Meta</th><th>Realizado</th></tr></thead>
+        <tbody></tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
